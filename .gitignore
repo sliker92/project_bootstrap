@@ -1,1 +1,14 @@
-/node_modules
+  
+'#' Lines starting with '#' are considered comments.
+
+'#' Ignore any file named foo.txt.
+
+foo.txt
+
+'#' Ignore objects and archives.
+
+*.[oa]
+
+.idea/
+
+node_modules/
